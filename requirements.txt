@@ -1,0 +1,10 @@
+fastapi>=0.115
+uvicorn[standard]>=0.32
+httpx>=0.27
+pydantic>=2.9
+pydantic-settings>=2.6
+cryptography>=43.0
+python-dotenv>=1.0
+pywebview>=6.2,<7
+# Termal yaziciya RAW ESC/POS gondermek icin (yalnizca Windows).
+pywin32>=306; sys_platform == "win32"
